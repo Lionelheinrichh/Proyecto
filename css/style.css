@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-video{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+}
+h1{
+    text-align: center;
+    position: relative;
+    padding-top: 15vh;
+    font-size: 8rem;
+    font-family: "New Amsterdam", sans-serif;
+}
+nav{
+    margin-top: 14vh;
+    z-index: 2;
+}
+ul{
+    background-color: black;
+    padding: 30px;
+    padding-left: 340px;
+    
+}
+li{
+    display: inline-block;
+    position: relative;
+    width: 24%;
+    }
+.navegacion{
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.5rem;
+    color: white;
+    border: solid 4px rgb(216, 46, 89);
+    background-color: rgb(209, 126, 140);
+}
+a:hover{
+    background-color: rgb(209, 62, 111);
+    color: black;   
+}
+ul ul{
+    position: absolute;
+    display: none; 
+}
+ul ul li{
+    display: block;
+    padding: 7px;   
+}
+ul li:hover ul{
+    display: block;
+    background-color: rgb(211, 155, 165);
+    padding: 35px;  
+}
+.botones{
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+    border: solid 2px rgb(216, 46, 89);
+    background-color: rgb(209, 126, 140);
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.barra{
+    position: sticky;
+}
+.video-zapas{
+    position: relative;
+    width: 600px;
+}
+
+main{
+    background-color: rgb(15, 177, 177);
+}
+h2{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 5rem;  
+    text-align: center;
+    background-color: rgb(15, 177, 177);
+}
+.video-zapas2{
+    position: relative;
+    width: 600px;
+    z-index: 1;
+    margin-right: 47px;
+    margin-left: 48px;
+}
+.video-zapas3{
+    position: relative;
+    width: 600px;
+}
+footer{
+    background-color: rgb(12, 136, 136);}
+h3{
+    font-size: 2rem;
+}
+
+.zapa1{ 
+    background-color: rgb(186, 235, 232); 
+    border-radius: 40%; 
+    padding: 80px;
+    margin-left: 70px;
+    margin-right: 60px;
+} 
+.zapa1:hover{ 
+    padding: 20px; 
+}
+.zapa2{ 
+    background-color: rgb(186, 235, 232); 
+    border-radius: 40%; 
+    padding: 80px;
+margin-right: 60px;
+} 
+.zapa2:hover{ 
+    padding: 20px; 
+}
+.zapa3{ 
+    background-color: rgb(186, 235, 232); 
+    border-radius: 40%; 
+    padding: 80px;
+    margin-right: 60px;
+} 
+.zapa3:hover{ 
+    padding: 20px; 
+}
+.zapa4{ 
+    background-color: rgb(186, 235, 232); 
+    border-radius: 40%; 
+    padding: 80px;
+    margin-right: 60px;
+} 
+.zapa4:hover{ 
+    padding: 20px; 
+}
+.zapa5{ 
+    background-color: rgb(186, 235, 232); 
+    border-radius: 40%; 
+    padding: 80px;
+    margin-left: 70px;
+    margin-right: 60px;  
+    margin-top: 40px;
+} 
+.zapa5:hover{ 
+    padding: 20px; 
+}
+.zapa6{ 
+    background-color: rgb(186, 235, 232); 
+    border-radius: 40%; 
+    padding: 80px;
+    margin-right: 60px;
+margin-top: 40px;
+} 
+.zapa6:hover{ 
+    padding: 20px; 
+}
+.zapa7{ 
+    background-color: rgb(186, 235, 232); 
+    border-radius: 40%; 
+    padding: 80px;
+    margin-right: 60px;
+margin-top: 40px;
+} 
+.zapa7:hover{ 
+    padding: 20px; 
+}
+.zapa8{ 
+    background-color: rgb(186, 235, 232); 
+    border-radius: 40%; 
+    padding: 80px;
+    margin-right: 60px;
+
+} 
+.zapa8:hover{ 
+    padding: 20px; 
+}
+p{
+    font-family: "Caveat", cursive;
+    font-size: 2rem;
+}
+.h1nosotros{
+    font-family: "Caveat", cursive;
+    
+}
+.formulariocontacto{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-left: 40%;
+    width: 20%;
+    border: solid 1px;
+    }
+
